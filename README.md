@@ -1,1 +1,6 @@
-Curiculum Vitae
+## Curiculum Vitae
+Design : Figma
+
+Editor : Visual Code
+
+OS : Linux
