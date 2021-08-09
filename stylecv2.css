@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  background-color: #252525;
+  font-family: Roboto;
+}
+.header {
+  height: 10%;
+}
+.header > a > img {
+  width: 1.5%;
+  float: right;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.main {
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.back {
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 85%;
+  background-color: #786953;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #786953;
+  border-radius: 2%;
+  margin-left: 50px;
+  width: 70%;
+}
+.fakeimg1 {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.main2 {
+  padding: 5px;
+  color: #f5e9c0;
+  width: 50%;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: 2vw;
+  cursor: pointer;
+  margin: 5px;
+  padding: 7px 35px;
+  color: #f5e9c0;
+  font-family: Roboto;
+}
+
+.bt1 {
+  background-color: #786953;
+}
+.bt2 {
+  background-color: #570600;
+}
+.bt3 {
+  background-color: #c6b680;
+}
+
+.footer {
+  height: 5%;
+}
+.footer > center > img {
+  width: 1%;
+  margin-right: 0px;
+  margin-top: 10px;
+}
+.footer > center > span {
+  font-size: 20px;
+  font-family: Roboto;
+}
